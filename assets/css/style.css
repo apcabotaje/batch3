@@ -1,0 +1,39 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-desktop {
+    display: flex;
+}
+
+.nav-desktop > p {
+    margin-left: 48px;
+}
+
+.hero-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-img {
+    width: 720px;
+    height: auto;
+}
+
+.hero-col-1 > p {
+    font-size: 24px;
+    max-width: 486px;
+}
